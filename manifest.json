@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Deadline Radar",
+    "description": "An extension that manages your tasks, first you add your tasks and its deadline, then it will notify your before the deadline comes.",
+    "actions": {
+        "default_popup": "pages/popup.html"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}
