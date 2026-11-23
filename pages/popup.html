@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadline Radar</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="../images/icon48.png " alt="The logo of the extension">
+            <h1>Deadline Radar</h1>
+        </div>
+
+        <p>Finish all your tasks before their deadlines.</p>
+
+    </header>
+
+    <main>
+
+        <section class="overview">
+
+            <h2>Overview</h2>
+            <div class="stats">
+
+                <div class="stat-card">
+                    <h3>Total Tasks</h3>
+                    <p id="t-tasks">0</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Completed</h3>
+                    <p id="c-tasks">0</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Coming Up</h3>
+                    <p id="n-tasks">0</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="tasks">
+
+            <div class="s-header">
+                <h2>My tasks</h2>
+                <button id="add-btn">Add Task</button>
+            </div>
+
+            <div class="t-list">
+                <p id="beg-message">You have no tasks yet. Add your first one!</p>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="popup.js"></script>
+</body>
+</html>
